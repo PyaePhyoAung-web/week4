@@ -1,4 +1,5 @@
 const http = require('http');
+var port = process.env.PORT || 8000;
 http.Server((req, res) => {
     if (req.url === '/result4/') {
       let CORS = {
@@ -20,4 +21,5 @@ http.Server((req, res) => {
         });
     }
   })
-  .listen(process.env.PORT);
+  server.listen(port,()=>{
+      console.log('Server is running')});
