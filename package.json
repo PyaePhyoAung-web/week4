@@ -1,22 +1,22 @@
 {
   "name": "week4",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
   "type":"module",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PyaePhyoAung-web/week4.git"
+    "url": "git+https://github.com/Alexisson/week4.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PyaePhyoAung-web/week4/issues"
+    "url": "https://github.com/Alexisson/week4/issues"
   },
-  "homepage": "https://github.com/PyaePhyoAung-web/week4#readme",
-  "keywords": [],
-  "description": ""
+  "homepage": "https://github.com/Alexisson/week4#readme"
 }
