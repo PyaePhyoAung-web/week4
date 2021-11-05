@@ -1,5 +1,4 @@
 import http from 'http';
-var port = process.env.PORT || 5000;
 const CORS = {
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Methods': 'GET,POST,DELETE,OPTIONS',
@@ -19,7 +18,7 @@ const server = http.createServer(async(req,res)=>{
           })
           res.write(JSON.stringify({
             "message":"pyaephyoaung",
-            "x-result":res.headers['x-test'] ?? '',
+            "x-result":headers,
             "x-body":data
             }
             ))
@@ -27,5 +26,5 @@ const server = http.createServer(async(req,res)=>{
       res.end()
       
   });
-  server.listen(port,()=>{
+  server.listen(4321,()=>{
       console.log('Server is running')});
