@@ -26,5 +26,5 @@ const server = http.createServer(async(req,res)=>{
       res.end()
       
   });
-  server.listen(5000,()=>{
+  server.listen(5939,()=>{
       console.log('Server is running')});
