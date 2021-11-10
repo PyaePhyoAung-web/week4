@@ -1,5 +1,5 @@
 import http from 'http';
-var port = process.env.PORT || 8000;
+var port = process.env.PORT || 4321;
 const CORS = {
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Methods': 'GET,POST,DELETE,OPTIONS',
